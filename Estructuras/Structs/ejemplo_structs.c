@@ -8,8 +8,8 @@ struct Persona { // Define una estructura llamada Persona
 
 int main() { // Función principal
     struct Persona persona; // Declara una variable de tipo struct Persona
-    strcpy(persona.nombre, "Ana"); // Asigna el nombre "Ana" al campo nombre
-    persona.edad = 30; // Asigna 30 al campo edad
+    strcpy(persona.nombre, "Daniel"); // Asigna el nombre "Ana" al campo nombre
+    persona.edad = 22; // Asigna 30 al campo edad
     printf("Nombre: %s, Edad: %d\n", persona.nombre, persona.edad); // Imprime los datos
     return 0; // Indica que el programa terminó correctamente
 }
